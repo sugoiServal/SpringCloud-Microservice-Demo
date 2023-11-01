@@ -7,16 +7,17 @@ import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 import java.text.DecimalFormat;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.IntStream;
 
 @Slf4j
-public class RideClient {
+public class RideClientService {
     private final String host;
     private final int port;
-    public RideClient(String host, int port) {
+    public RideClientService(String host, int port) {
         this.host = host;
         this.port = port;
     }

@@ -1,0 +1,13 @@
+# https://docs.spring.io/spring-cloud-netflix/docs/current/reference/html/#spring-cloud-eureka-server
+  # Standalone Mode
+server:
+  port: 8761
+spring:
+  application:
+    name: eurekaserver   # eureka service name
+eureka:
+  client:
+    instance:
+      hostname: localhost
+    serviceUrl:   # register eureka service to eureka itself
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,11 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: ride-service
+eureka:
+  client:
+    serviceUrl:   # register this service to eureka
+      defaultZone: http://localhost:8761/eureka   # in real use eureka deployment's host
+
+
