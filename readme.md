@@ -1,9 +1,10 @@
 # Ridetrack
 
 - simple gRPC-SpringBoot bi-directional stream demo with a ride tracking app
-- tech used:
+- stack:
     - gRPC
     - [grpc-spring-boot](https://github.com/grpc-ecosystem/grpc-spring)
+    - Spring CLoud Eureka
 
 # Usage
 
