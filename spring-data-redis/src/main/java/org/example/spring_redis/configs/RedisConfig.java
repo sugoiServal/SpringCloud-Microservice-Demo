@@ -14,7 +14,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import java.net.UnknownHostException;
 
 @Configuration
-@EnableRedisRepositories
+//@EnableRedisRepositories
 public class RedisConfig {
     @Bean
     LettuceConnectionFactory redisConnectionFactory() {
