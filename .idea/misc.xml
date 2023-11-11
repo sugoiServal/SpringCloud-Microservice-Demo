@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/jedis/srping-data-redis/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-producer/Jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
       </set>
     </option>
   </component>

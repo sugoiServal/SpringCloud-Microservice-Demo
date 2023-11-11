@@ -25,6 +25,8 @@
         <module>jedis</module>
         <module>spring-data-redis</module>
         <module>elastisearch-client</module>
+        <module>spring-AMQP</module>
+        <module>kafka</module>
     </modules>
     <properties>
         <java.version>17</java.version>
